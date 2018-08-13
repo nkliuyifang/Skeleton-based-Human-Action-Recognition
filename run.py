@@ -1,19 +1,19 @@
 import os
 
 os.system("mkdir Northwestern-UCLA_img_type_4/model")
-os.system("python train.py 'Northwestern-UCLA_img_type_4' 'Northwestern-UCLA_img_type_4/model' 16 0.01 10")
+os.system("python train.py 'Northwestern-UCLA_img_type_4' 'Northwestern-UCLA_img_type_4/model' 16 0.001 10")
 os.system("python test.py 'Northwestern-UCLA_img_type_4' 'Northwestern-UCLA_img_type_4/model' 16")
 
 os.system("mkdir Northwestern-UCLA_img_type_3/model")
-os.system("python train.py 'Northwestern-UCLA_img_type_3' 'Northwestern-UCLA_img_type_3/model' 16 0.01 10")
+os.system("python train.py 'Northwestern-UCLA_img_type_3' 'Northwestern-UCLA_img_type_3/model' 16 0.001 10")
 os.system("python test.py 'Northwestern-UCLA_img_type_3' 'Northwestern-UCLA_img_type_3/model' 16")
 
 os.system("mkdir Northwestern-UCLA_img_type_2/model")
-os.system("python train.py 'Northwestern-UCLA_img_type_2' 'Northwestern-UCLA_img_type_2/model' 16 0.01 10")
+os.system("python train.py 'Northwestern-UCLA_img_type_2' 'Northwestern-UCLA_img_type_2/model' 16 0.001 10")
 os.system("python test.py 'Northwestern-UCLA_img_type_2' 'Northwestern-UCLA_img_type_2/model' 16")
 
 os.system("mkdir Northwestern-UCLA_img_type_1/model")
-os.system("python train.py 'Northwestern-UCLA_img_type_1' 'Northwestern-UCLA_img_type_1/model' 16 0.01 10")
+os.system("python train.py 'Northwestern-UCLA_img_type_1' 'Northwestern-UCLA_img_type_1/model' 16 0.001 10")
 os.system("python test.py 'Northwestern-UCLA_img_type_1' 'Northwestern-UCLA_img_type_1/model' 16")
 
 
