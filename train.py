@@ -17,11 +17,6 @@ import time
 import os
 import argparse # 声明
 
-SEED = 0
-torch.manual_seed(SEED)
-torch.cuda.manual_seed(SEED)
-torch.backends.cudnn.deterministic = True
-
 parser = argparse.ArgumentParser() # 声明
 #######################################   
 
@@ -30,6 +25,7 @@ parser.add_argument("save_dir", type=str, default = '')
 parser.add_argument("batch_size", type=int, default = 64)
 parser.add_argument("learning_rate", type=float, default = 0.001)
 parser.add_argument("actionType", type=int, default = 60)
+parser.add_argument("SEED", type=int, default = 1)
 
 args = parser.parse_args()
         
@@ -39,6 +35,11 @@ save_dir = args.save_dir
 batch_size = args.batch_size
 learning_rate = args.learning_rate
 actionType = args.actionType
+
+SEED = args.SEED
+torch.manual_seed(SEED)
+torch.cuda.manual_seed(SEED)
+torch.backends.cudnn.deterministic = True
 
 ######################################################################
 
