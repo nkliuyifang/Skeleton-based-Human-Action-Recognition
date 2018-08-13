@@ -1,21 +1,28 @@
 # Skeleton-based-Human-Action-Recognition
-The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0
-'''
+This is partial implementations of our PR 2017 and CVPR 2018 papers.
+
+## Prerequisites
+The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
+
+### Installation
+```
 1. $ git clone https://github.com/nkliuyifang/Skeleton-based-Human-Action-Recognition.git
-'''
+```
+```
 2. Download and unzip datasets: 
 - [UTD-MHAD](https://pan.baidu.com/s/1hc3AYngGxCXk49ihW-EbuA)
 - [Northwestern-UCLA](https://pan.baidu.com/s/1f7hWElp3_u5Wen8qVGfB8Q)
 - [NTU RGB+D]()
-'''
+```
+```
 3. Open Matlab, and run "run.m"
-'''
-'''
+```
+```
 4. $ python run.py
-'''
-'''
+```
+```
 5. $ python show.py
-'''
+```
 6. Average accuracy over 10 times of running:
 
 Method | UTD-MHAD (Cross Subject)
