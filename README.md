@@ -15,8 +15,9 @@ Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 
 6. The result:
 
-Northwestern-UCLA dataset
-Type 1: 0.7370 (Baseline)
-Type 2: 0.8652 (Bseline + View Transform, the method in PR 2017)
-Type 3: 0.7891 (Baseline + Point Insert, the method in CVPR 2018)
-Type 4: 0.8630 (Bseline + View Transform + Point Insert)
+Method | Northwestern-UCLA dataset
+------ | -------------------------
+Type 1 | 0.7370 (Baseline)
+Type 2 | 0.8652 (Bseline + View Transform, the method in PR 2017)
+Type 3 | 0.7891 (Baseline + Point Insert, the method in CVPR 2018)
+Type 4 | 0.8630 (Bseline + View Transform + Point Insert)
