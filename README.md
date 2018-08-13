@@ -15,21 +15,21 @@ Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 
 5. $ python show.py
 
-6. The results:
+6. Average accuracy over 10 times of running:
 
-Method | UTKinect-Action dataset
+Method | UTD-MHAD dataset
+------ | -------------------------
+Type 1 | 0.8763 (Baseline)
+Type 2 | 0.8974 (Baseline + View Transform, the method in PR 2017)
+Type 3 | 0.8884 (Baseline + Point Insert, the method in CVPR 2018)
+Type 4 | 0.8814 (Baseline + View Transform + Point Insert)
+
+Method | Northwestern-UCLA dataset
 ------ | -------------------------
 Type 1 | 0. (Baseline)
 Type 2 | 0. (Baseline + View Transform, the method in PR 2017)
 Type 3 | 0. (Baseline + Point Insert, the method in CVPR 2018)
 Type 4 | 0. (Baseline + View Transform + Point Insert)
-
-Method | Northwestern-UCLA dataset
------- | -------------------------
-Type 1 | 0.7478 (Baseline)
-Type 2 | 0.8152 (Baseline + View Transform, the method in PR 2017)
-Type 3 | 0.8717 (Baseline + Point Insert, the method in CVPR 2018)
-Type 4 | 0.8630 (Baseline + View Transform + Point Insert)
 
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
