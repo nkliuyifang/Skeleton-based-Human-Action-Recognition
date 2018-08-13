@@ -1,8 +1,7 @@
-
 #coding:utf-8
 # License: BSD
 # Original author: Sasank Chilamkurthy
-# Modified by nkliuyifang
+# Modified by Fanyang Meng, nkliuyifang
 
 from __future__ import print_function, division
 
