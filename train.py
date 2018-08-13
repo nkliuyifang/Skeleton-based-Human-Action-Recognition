@@ -1,7 +1,8 @@
 
 #coding:utf-8
 # License: BSD
-# Author: Sasank Chilamkurthy
+# Original author: Sasank Chilamkurthy
+# Modified by nkliuyifang
 
 from __future__ import print_function, division
 
@@ -15,9 +16,9 @@ from torch.utils.data import TensorDataset,DataLoader
 from model import FullCNN
 import time
 import os
-import argparse # 声明
+import argparse
 
-parser = argparse.ArgumentParser() # 声明
+parser = argparse.ArgumentParser()
 #######################################   
 
 parser.add_argument("data_dir", type=str, default = '')
