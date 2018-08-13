@@ -15,9 +15,9 @@ Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 
 5. $ python show.py
 
-6. The result:
+6. The results:
 
-Method | UTD-MHAD dataset
+Method | UTKinect-Action dataset
 ------ | -------------------------
 Type 1 | 0. (Baseline)
 Type 2 | 0. (Baseline + View Transform, the method in PR 2017)
