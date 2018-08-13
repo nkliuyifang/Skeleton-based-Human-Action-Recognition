@@ -20,6 +20,7 @@ import argparse # 声明
 SEED = 0
 torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
+torch.backends.cudnn.deterministic = True
 
 parser = argparse.ArgumentParser() # 声明
 #######################################   
