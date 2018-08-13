@@ -6,8 +6,8 @@ Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 1. $ git clone https://github.com/nkliuyifang/Skeleton-based-Human-Action-Recognition.git
 
 2. download and unzip dataset: 
-- [Northwestern-UCLA](https://pan.baidu.com/s/1f7hWElp3_u5Wen8qVGfB8Q)
 - [UTD-MHAD](https://pan.baidu.com/s/1hc3AYngGxCXk49ihW-EbuA)
+- [Northwestern-UCLA](https://pan.baidu.com/s/1f7hWElp3_u5Wen8qVGfB8Q)
 
 3. open Matlab, and run "run.m"
 
