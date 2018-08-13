@@ -3,7 +3,7 @@ This is partial implementation of PR 2017 and CVPR 2018 papers
 
 Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 
-First, download Northwestern-UCLA dataset and NTU RGB+D dataset from here, and put dataset into current file.
+First, download Northwestern-UCLA dataset from https://pan.baidu.com/s/1f7hWElp3_u5Wen8qVGfB8Q, and unzip dataset into current file.
 
 Second, open Matlab and run "run.m" to extract feature for each sample.
 
