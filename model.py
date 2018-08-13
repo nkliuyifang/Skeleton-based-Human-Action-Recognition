@@ -1,8 +1,8 @@
+#coding:utf-8
+# License: BSD
+# Original author: Fanyang Meng, nkliuyifang
 
 import torch.nn as nn
-#import torch
-#import torch.nn.functional as F
-#from torch.autograd import Variable
 from torchvision import models
 
     
