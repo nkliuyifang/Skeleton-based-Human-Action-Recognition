@@ -16,7 +16,7 @@ if type == 1
     min_y = min(min(y)); max_y = max(max(y));
     min_z = min(min(z)); max_z = max(max(z));
     x = ((x-min_x)/(max_x - min_x+eps));
-    y = ((y-min_y)/(max_y - min_y +eps));
+    y = ((y-min_y)/(max_y - min_y+eps));
     z = ((z-min_z)/(max_z - min_z+eps));   
 
     skeleton = cat(3,x,y,z);
@@ -35,7 +35,7 @@ if type == 2
     min_y = min(min(y)); max_y = max(max(y));
     min_z = min(min(z)); max_z = max(max(z));
     x = ((x-min_x)/(max_x - min_x+eps));
-    y = ((y-min_y)/(max_y - min_y +eps));
+    y = ((y-min_y)/(max_y - min_y+eps));
     z = ((z-min_z)/(max_z - min_z+eps));   
 
     skeleton = cat(3,x,y,z);
@@ -52,7 +52,7 @@ if type == 3
     min_y = min(min(y)); max_y = max(max(y));
     min_z = min(min(z)); max_z = max(max(z));
     x = ((x-min_x)/(max_x - min_x+eps));
-    y = ((y-min_y)/(max_y - min_y +eps));
+    y = ((y-min_y)/(max_y - min_y+eps));
     z = ((z-min_z)/(max_z - min_z+eps));   
 
     skeleton = cat(3,x,y,z);
@@ -93,7 +93,7 @@ if type == 4
     min_y = min(min(y)); max_y = max(max(y));
     min_z = min(min(z)); max_z = max(max(z));
     x = ((x-min_x)/(max_x - min_x+eps));
-    y = ((y-min_y)/(max_y - min_y +eps));
+    y = ((y-min_y)/(max_y - min_y+eps));
     z = ((z-min_z)/(max_z - min_z+eps));   
 
     skeleton = cat(3,x,y,z);
