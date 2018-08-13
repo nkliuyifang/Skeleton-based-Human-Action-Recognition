@@ -5,17 +5,24 @@ Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 
 1. $ git clone https://github.com/nkliuyifang/Skeleton-based-Human-Action-Recognition.git
 
-2. download and unzip dataset: 
+2. Download and unzip datasets: 
 - [UTD-MHAD](https://pan.baidu.com/s/1hc3AYngGxCXk49ihW-EbuA)
 - [Northwestern-UCLA](https://pan.baidu.com/s/1f7hWElp3_u5Wen8qVGfB8Q)
 
-3. open Matlab, and run "run.m"
+3. Open Matlab, and run "run.m"
 
 4. $ python run.py
 
 5. $ python show.py
 
 6. The result:
+
+Method | UTD-MHAD dataset
+------ | -------------------------
+Type 1 | 0. (Baseline)
+Type 2 | 0. (Baseline + View Transform, the method in PR 2017)
+Type 3 | 0. (Baseline + Point Insert, the method in CVPR 2018)
+Type 4 | 0. (Baseline + View Transform + Point Insert)
 
 Method | Northwestern-UCLA dataset
 ------ | -------------------------
