@@ -23,12 +23,12 @@ Type 3 | 0.7891 (Baseline + Point Insert, the method in CVPR 2018)
 Type 4 | 0.8630 (Bseline + View Transform + Point Insert)
 
 @article{<br>
-&nbsp title={Enhanced skeleton visualization for view invariant human action recognition},<br>
-    author={Liu, Mengyuan and Liu, Hong and Chen, Chen},<br>
-    journal={Pattern Recognition (PR)},<br>
-    volume={68},<br>
-    pages={346--362},<br>
-    year={2017}<br>
+- title={Enhanced skeleton visualization for view invariant human action recognition},<br>
+- author={Liu, Mengyuan and Liu, Hong and Chen, Chen},<br>
+- journal={Pattern Recognition (PR)},<br>
+- volume={68},<br>
+- pages={346--362},<br>
+- year={2017}<br>
 }
 
 @inproceedings{CVPR2018,<br>
