@@ -1,5 +1,5 @@
 # Skeleton-based-Human-Action-Recognition
-This is partial implementation of PR 2017 and CVPR 2018 papers
+This is partial implementations of PR 2017 and CVPR 2018 papers
 
 Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
 
