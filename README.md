@@ -1,7 +1,7 @@
 # Skeleton-based-Human-Action-Recognition
 The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0
 
-1. $ git clone https:\//github.com\/nkliuyifang\/Skeleton-based-Human-Action-Recognition.git
+1. $ git clone \https:\//github.com\/nkliuyifang\/Skeleton-based-Human-Action-Recognition.git
 
 2. Download and unzip datasets: 
 - [UTD-MHAD](https://pan.baidu.com/s/1hc3AYngGxCXk49ihW-EbuA)
