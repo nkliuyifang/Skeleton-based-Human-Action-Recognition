@@ -15,8 +15,12 @@ from torch.utils.data import TensorDataset,DataLoader
 from model import FullCNN
 import time
 import os
-
 import argparse # 声明
+
+SEED = 0
+torch.manual_seed(SEED)
+torch.cuda.manual_seed(SEED)
+
 parser = argparse.ArgumentParser() # 声明
 #######################################   
 
