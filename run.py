@@ -1,3 +1,7 @@
+#coding:utf-8
+# License: BSD
+# Original author: nkliuyifang
+
 import os
 
 for type in range(1,5):
