@@ -1,7 +1,5 @@
 # Skeleton-based-Human-Action-Recognition
-This is partial implementations of PR 2017 and CVPR 2018 papers
-
-Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0 are used.
+The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0
 
 1. $ git clone https://github.com/nkliuyifang/Skeleton-based-Human-Action-Recognition.git
 
