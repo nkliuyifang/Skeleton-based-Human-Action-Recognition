@@ -39,7 +39,7 @@ Type 4 | 0.8638 (Baseline + View Transform + Point Insert)
 ## Citation
 Please cite the following paper if you use this repository in your research.
 ```
-@article{
+@article{PR2017
     title={Enhanced Skeleton Visualization for View Invariant Human Action Recognition},
     author={Liu, Mengyuan and Liu, Hong and Chen, Chen},
     journal={Pattern Recognition (PR)},
