@@ -31,8 +31,8 @@ Type 4 | 0.8814 (Baseline + View Transform + Point Insert)
 
 Method | Northwestern-UCLA (Cross View)
 ------ | -------------------------
-Type 1 | 0. (Baseline)
-Type 2 | 0. (Baseline + View Transform, the method in PR 2017)
+Type 1 | 0.7398 (Baseline)
+Type 2 | 0.8430 (Baseline + View Transform, the method in PR 2017)
 Type 3 | 0. (Baseline + Point Insert, the method in CVPR 2018)
 Type 4 | 0. (Baseline + View Transform + Point Insert)
 
