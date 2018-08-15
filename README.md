@@ -21,7 +21,7 @@ The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
 ## Results
 We report average recognition accuracy over 10 times of running:
 
-| Method | UTD-MHAD dataset<br>Cross Subject (%)|Northwestern-UCLA dataset<br>Cross View (%) |NTU RGB+D dataset<br>Cross View (%) |
+| Method | UTD-MHAD<br>Cross Subject (%)|Northwestern-UCLA<br>Cross View (%) |NTU RGB+D<br>Cross View (%) |
 | :------| :------: | :------: | :------: |
 Baseline                                  | 87.63     | 73.98      | 83.42
 Baseline + View Transform (PR 2017)       | **89.74** | 84.30      | **87.13**
