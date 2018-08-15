@@ -22,11 +22,11 @@ The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
 We report average recognition accuracy over 10 times of running:
 
 Method | UTD-MHAD (Cross Subject)
------- | -------------------------
-Type 1 | 0.8763 (Baseline)
-Type 2 | **0.8974** (Baseline + View Transform, the method in PR 2017)
-Type 3 | 0.8884 (Baseline + Point Insert, the method in CVPR 2018)
-Type 4 | 0.8814 (Baseline + View Transform + Point Insert)
+----------------- | -------------------------
+Baseline | 0.8763
+Baseline + View Transform (PR 2017) | **0.8974**
+Baseline + Point Insert (CVPR 2018) | 0.8884
+Baseline + View Transform + Point Insert | 0.8814
 
 
 Method | Northwestern-UCLA (Cross View)
