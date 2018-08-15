@@ -21,29 +21,12 @@ The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
 ## Results
 We report average recognition accuracy over 10 times of running:
 
-Method | UTD-MHAD (Cross Subject)
---------------------------------- | ---------------
-Baseline | 0.8763
-Baseline + View Transform (PR 2017) | **0.8974**
-Baseline + Point Insert (CVPR 2018) | 0.8884
-Baseline + View Transform + Point Insert | 0.8814
-
-
-Method | Northwestern-UCLA (Cross View)
------- | -------------------------
-Type 1 | 0.7398 (Baseline)
-Type 2 | 0.8430 (Baseline + View Transform, the method in PR 2017)
-Type 3 | 0.7565 (Baseline + Point Insert, the method in CVPR 2018)
-Type 4 | 0.8661 (Baseline + View Transform + Point Insert)
-
-
-Method | NTU RGB+D (Cross View)
------- | -------------------------
-Type 1 | 0.8342 (Baseline)
-Type 2 | **0.8713** (Baseline + View Transform, the method in PR 2017)
-Type 3 | 0.8472 (Baseline + Point Insert, the method in CVPR 2018)
-Type 4 | 0.8638 (Baseline + View Transform + Point Insert)
-
+| Model| UTD-<br>MHAD (%)|Northwestern-<br>UCLA (%) |NTU RGB+D <br> Cross View (%) |
+| :------| :------: | :------: | :------: |
+Baseline                                  | 0.8763     | 0.7398      | 0.8342
+Baseline + View Transform (PR 2017)       | **0.8974** | 0.8430      | **0.8713**
+Baseline + Point Insert (CVPR 2018)       | 0.8884     | 0.7565      | 0.8472
+Baseline + View Transform + Point Insert  | 0.8814     | **0.8661**  | 0.8638
 
 ## Citation
 Please cite the following paper if you use this repository in your research.
