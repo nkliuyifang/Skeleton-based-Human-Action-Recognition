@@ -23,10 +23,10 @@ We report average recognition accuracy over 10 times of running:
 
 | Method | UTD-MHAD<br>Cross Subject (%)|Northwestern-UCLA<br>Cross View (%) |NTU RGB+D<br>Cross View (%) |
 | :------:| :------: | :------: | :------: |
-Baseline                                  | 87.63     | 73.98      | 83.42
-Baseline + View Transform (PR 2017)       | **89.74** | 84.30      | **87.13**
-Baseline + Point Insert (CVPR 2018)       | 88.84     | 75.65      | 84.72
-Baseline + View Transform + Point Insert  | 88.14     | **86.61**  | 86.38
+CNN (PR 2017)                             | 87.63     | 73.98      | 83.42
+CNN + View Transform (PR 2017)            | **89.74** | 84.30      | **87.13**
+Pose Evolution Image (CVPR 2018)          | 88.84     | 75.65      | 84.72
+Pose Evolution Image + View Transform     | 88.14     | **86.61**  | 86.38
 
 ## Citation
 Please cite the following paper if you use this repository in your research.
