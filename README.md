@@ -22,7 +22,7 @@ The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
 We report average recognition accuracy over 10 times of running:
 
 Method | UTD-MHAD (Cross Subject)
------------------ | -------------------------
+--------------------------------- | ---------------
 Baseline | 0.8763
 Baseline + View Transform (PR 2017) | **0.8974**
 Baseline + Point Insert (CVPR 2018) | 0.8884
