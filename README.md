@@ -19,7 +19,7 @@ The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
 5. $ python show.py
 
 ## Results
-We report average recognition accuracy over 10 times of running:
+We report average recognition accuracy over ten times of running:
 
 | Method | UTD-MHAD<br>Cross Subject (%)|Northwestern-UCLA<br>Cross View (%) |NTU RGB+D<br>Cross View (%) |
 | :------:| :------: | :------: | :------: |
@@ -31,7 +31,7 @@ Pose Evolution Image + View Transform     | 88.14     | **86.61**  | 86.38
 ## Citation
 Please cite the following paper if you use this repository in your research.
 ```
-@article{PR2017
+@article{PR 2017
     title={Enhanced Skeleton Visualization for View Invariant Human Action Recognition},
     author={Liu, Mengyuan and Liu, Hong and Chen, Chen},
     journal={Pattern Recognition (PR)},
@@ -40,7 +40,7 @@ Please cite the following paper if you use this repository in your research.
     year={2017}
 }
 
-@inproceedings{CVPR2018,
+@inproceedings{CVPR 2018,
     title={Recognizing Human Actions as the Evolution of Pose Estimation Maps},
     author={Liu, Mengyuan and Yuan, Junsong},
     booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
