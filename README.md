@@ -22,7 +22,7 @@ The following code is based on Matlab R2015b, Python 2.7.14, and Pytorch 0.3.0.
 We report average recognition accuracy over 10 times of running:
 
 | Method | UTD-MHAD<br>Cross Subject (%)|Northwestern-UCLA<br>Cross View (%) |NTU RGB+D<br>Cross View (%) |
-| :------| :------: | :------: | :------: |
+| :------:| :------: | :------: | :------: |
 Baseline                                  | 87.63     | 73.98      | 83.42
 Baseline + View Transform (PR 2017)       | **89.74** | 84.30      | **87.13**
 Baseline + Point Insert (CVPR 2018)       | 88.84     | 75.65      | 84.72
